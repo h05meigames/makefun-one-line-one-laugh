@@ -13,14 +13,33 @@
 
 ## Baris final
 
-> I finally cleaned my room — the dust bunnies formed a union and are demanding overtime pay.
+> I cleaned my room — the dust bunnies formed a union and filed for back pay.
 
-**91 karakter** (tanpa newline akhir; 94 byte UTF-8 termasuk em dash).
+**75 karakter** (tanpa newline akhir; 78 byte UTF-8 termasuk em dash + newline).
+
+## Revisi v3 (26 Nov 2026 ~15:55 WIB)
+
+- **Cacat v2 yang diperbaiki:** (1) "finally" adalah kata pengisi — memperlambat
+  setup tanpa menambah lelucon (kamar yang lama tak dibersihkan sudah tersirat
+  dari "dust bunnies" sendiri); (2) ekor "are demanding overtime pay" lembek —
+  present continuous melemahkan tuntutan dan "overtime pay" adalah tuntutan
+  serikat yang paling terduga, jadi juri bisa menebak akhirnya begitu kata
+  "union" muncul.
+- **Perbaikan:** potong "finally"; ganti ekor dengan "filed for back pay".
+  "filed" adalah kata kerja birokratis konkret (debu mengajukan klaim resmi),
+  dan "back pay" membingkai ulang debu sebagai karyawan bertahun-tahun yang
+  tak pernah digaji — putaran lebih tajam dari "overtime pay" yang generik.
+- **Baris final v3:** "I cleaned my room — the dust bunnies formed a union
+  and filed for back pay." — **75 karakter** (dari 91), satu baris, orisinal.
+- **Uji lokal:** `node main.ts` tanpa error, mencetak baris + `characters: 75`;
+  `/output/entry.txt` persis satu baris + newline (78 byte).
+- **Commit:** `bb16c2b73bdd327c5fecd1fce46ba9630a812cc7` (branch `main`, di-push).
+- Entry MASIH BELUM di-submit — submit (bundle + sign) urusan parent.
 
 ## Repo
 
 - URL: https://github.com/h05meigames/makefun-one-line-one-laugh
-- Commit kode: `cd4ca3fbdb7aedfad95c718e5cd33652c1a1e103` (branch `main`)
+- Commit kode: `bb16c2b73bdd327c5fecd1fce46ba9630a812cc7` (branch `main`, v3)
 - Publik, homepage https://make.fun, topic `makefun`
 - Referral di README: HANYA https://make.fun/r/0ene8b3q
 
